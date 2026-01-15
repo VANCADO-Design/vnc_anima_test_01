@@ -1,0 +1,276 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  button,
+  input,
+  select,
+  textarea {
+    @apply appearance-none bg-transparent border-0 outline-none;
+  }
+}
+
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --drop-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  --project-headlines-large-h1-XL-font-family: "Roboto", Helvetica;
+  --project-headlines-large-h1-XL-font-size: 64px;
+  --project-headlines-large-h1-XL-font-style: normal;
+  --project-headlines-large-h1-XL-font-weight: 700;
+  --project-headlines-large-h1-XL-letter-spacing: 0px;
+  --project-headlines-large-h1-XL-line-height: 80px;
+  --project-headlines-large-h2-l-font-family: "Roboto", Helvetica;
+  --project-headlines-large-h2-l-font-size: 40px;
+  --project-headlines-large-h2-l-font-style: normal;
+  --project-headlines-large-h2-l-font-weight: 700;
+  --project-headlines-large-h2-l-letter-spacing: 0px;
+  --project-headlines-large-h2-l-line-height: 52px;
+  --project-headlines-large-h3-m-font-family: "Roboto", Helvetica;
+  --project-headlines-large-h3-m-font-size: 28px;
+  --project-headlines-large-h3-m-font-style: normal;
+  --project-headlines-large-h3-m-font-weight: 700;
+  --project-headlines-large-h3-m-letter-spacing: 0px;
+  --project-headlines-large-h3-m-line-height: 36px;
+  --project-headlines-large-h4-s-font-family: "Roboto", Helvetica;
+  --project-headlines-large-h4-s-font-size: 24px;
+  --project-headlines-large-h4-s-font-style: normal;
+  --project-headlines-large-h4-s-font-weight: 700;
+  --project-headlines-large-h4-s-letter-spacing: 0px;
+  --project-headlines-large-h4-s-line-height: 32px;
+  --project-headlines-large-h5-XS-font-family: "Roboto", Helvetica;
+  --project-headlines-large-h5-XS-font-size: 18px;
+  --project-headlines-large-h5-XS-font-style: normal;
+  --project-headlines-large-h5-XS-font-weight: 700;
+  --project-headlines-large-h5-XS-letter-spacing: 0px;
+  --project-headlines-large-h5-XS-line-height: 24px;
+  --project-headlines-large-h6-XXS-font-family: "Roboto", Helvetica;
+  --project-headlines-large-h6-XXS-font-size: 16px;
+  --project-headlines-large-h6-XXS-font-style: normal;
+  --project-headlines-large-h6-XXS-font-weight: 700;
+  --project-headlines-large-h6-XXS-letter-spacing: 0px;
+  --project-headlines-large-h6-XXS-line-height: 22px;
+  --project-headlines-small-h1-XL-font-family: "Roboto", Helvetica;
+  --project-headlines-small-h1-XL-font-size: 36px;
+  --project-headlines-small-h1-XL-font-style: normal;
+  --project-headlines-small-h1-XL-font-weight: 700;
+  --project-headlines-small-h1-XL-letter-spacing: 0px;
+  --project-headlines-small-h1-XL-line-height: 48px;
+  --project-headlines-small-h2-l-font-family: "Roboto", Helvetica;
+  --project-headlines-small-h2-l-font-size: 28px;
+  --project-headlines-small-h2-l-font-style: normal;
+  --project-headlines-small-h2-l-font-weight: 700;
+  --project-headlines-small-h2-l-letter-spacing: 0px;
+  --project-headlines-small-h2-l-line-height: 36px;
+  --project-headlines-small-h3-m-font-family: "Roboto", Helvetica;
+  --project-headlines-small-h3-m-font-size: 24px;
+  --project-headlines-small-h3-m-font-style: normal;
+  --project-headlines-small-h3-m-font-weight: 700;
+  --project-headlines-small-h3-m-letter-spacing: 0px;
+  --project-headlines-small-h3-m-line-height: 28px;
+  --project-headlines-small-h4-s-font-family: "Roboto", Helvetica;
+  --project-headlines-small-h4-s-font-size: 20px;
+  --project-headlines-small-h4-s-font-style: normal;
+  --project-headlines-small-h4-s-font-weight: 700;
+  --project-headlines-small-h4-s-letter-spacing: 0px;
+  --project-headlines-small-h4-s-line-height: 24px;
+  --project-headlines-small-h5-XS-font-family: "Roboto", Helvetica;
+  --project-headlines-small-h5-XS-font-size: 18px;
+  --project-headlines-small-h5-XS-font-style: normal;
+  --project-headlines-small-h5-XS-font-weight: 700;
+  --project-headlines-small-h5-XS-letter-spacing: 0px;
+  --project-headlines-small-h5-XS-line-height: 22px;
+  --project-headlines-small-h6-XXS-font-family: "Roboto", Helvetica;
+  --project-headlines-small-h6-XXS-font-size: 16px;
+  --project-headlines-small-h6-XXS-font-style: normal;
+  --project-headlines-small-h6-XXS-font-weight: 700;
+  --project-headlines-small-h6-XXS-letter-spacing: 0px;
+  --project-headlines-small-h6-XXS-line-height: 20px;
+  --project-paragraphs-large-p1-XL-font-family: "Roboto", Helvetica;
+  --project-paragraphs-large-p1-XL-font-size: 40px;
+  --project-paragraphs-large-p1-XL-font-style: normal;
+  --project-paragraphs-large-p1-XL-font-weight: 400;
+  --project-paragraphs-large-p1-XL-letter-spacing: 0px;
+  --project-paragraphs-large-p1-XL-line-height: 52px;
+  --project-paragraphs-large-p2-l-font-family: "Roboto", Helvetica;
+  --project-paragraphs-large-p2-l-font-size: 28px;
+  --project-paragraphs-large-p2-l-font-style: normal;
+  --project-paragraphs-large-p2-l-font-weight: 400;
+  --project-paragraphs-large-p2-l-letter-spacing: 0px;
+  --project-paragraphs-large-p2-l-line-height: 36px;
+  --project-paragraphs-large-p3-m-font-family: "Roboto", Helvetica;
+  --project-paragraphs-large-p3-m-font-size: 20px;
+  --project-paragraphs-large-p3-m-font-style: normal;
+  --project-paragraphs-large-p3-m-font-weight: 400;
+  --project-paragraphs-large-p3-m-letter-spacing: 0px;
+  --project-paragraphs-large-p3-m-line-height: 26px;
+  --project-paragraphs-large-p4-s-font-family: "Roboto", Helvetica;
+  --project-paragraphs-large-p4-s-font-size: 18px;
+  --project-paragraphs-large-p4-s-font-style: normal;
+  --project-paragraphs-large-p4-s-font-weight: 400;
+  --project-paragraphs-large-p4-s-letter-spacing: 0px;
+  --project-paragraphs-large-p4-s-line-height: 24px;
+  --project-paragraphs-large-p5-XS-font-family: "Roboto", Helvetica;
+  --project-paragraphs-large-p5-XS-font-size: 16px;
+  --project-paragraphs-large-p5-XS-font-style: normal;
+  --project-paragraphs-large-p5-XS-font-weight: 400;
+  --project-paragraphs-large-p5-XS-letter-spacing: 0px;
+  --project-paragraphs-large-p5-XS-line-height: 20px;
+  --project-paragraphs-large-p6-XXS-font-family: "Roboto", Helvetica;
+  --project-paragraphs-large-p6-XXS-font-size: 14px;
+  --project-paragraphs-large-p6-XXS-font-style: normal;
+  --project-paragraphs-large-p6-XXS-font-weight: 400;
+  --project-paragraphs-large-p6-XXS-letter-spacing: 0px;
+  --project-paragraphs-large-p6-XXS-line-height: 18px;
+  --project-paragraphs-small-p1-XL-font-family: "Roboto", Helvetica;
+  --project-paragraphs-small-p1-XL-font-size: 24px;
+  --project-paragraphs-small-p1-XL-font-style: normal;
+  --project-paragraphs-small-p1-XL-font-weight: 400;
+  --project-paragraphs-small-p1-XL-letter-spacing: 0px;
+  --project-paragraphs-small-p1-XL-line-height: 32px;
+  --project-paragraphs-small-p2-l-font-family: "Roboto", Helvetica;
+  --project-paragraphs-small-p2-l-font-size: 20px;
+  --project-paragraphs-small-p2-l-font-style: normal;
+  --project-paragraphs-small-p2-l-font-weight: 400;
+  --project-paragraphs-small-p2-l-letter-spacing: 0px;
+  --project-paragraphs-small-p2-l-line-height: 26px;
+  --project-paragraphs-small-p3-m-font-family: "Roboto", Helvetica;
+  --project-paragraphs-small-p3-m-font-size: 18px;
+  --project-paragraphs-small-p3-m-font-style: normal;
+  --project-paragraphs-small-p3-m-font-weight: 400;
+  --project-paragraphs-small-p3-m-letter-spacing: 0px;
+  --project-paragraphs-small-p3-m-line-height: 24px;
+  --project-paragraphs-small-p4-s-font-family: "Roboto", Helvetica;
+  --project-paragraphs-small-p4-s-font-size: 16px;
+  --project-paragraphs-small-p4-s-font-style: normal;
+  --project-paragraphs-small-p4-s-font-weight: 400;
+  --project-paragraphs-small-p4-s-letter-spacing: 0px;
+  --project-paragraphs-small-p4-s-line-height: 22px;
+  --project-paragraphs-small-p5-XS-font-family: "Roboto", Helvetica;
+  --project-paragraphs-small-p5-XS-font-size: 14px;
+  --project-paragraphs-small-p5-XS-font-style: normal;
+  --project-paragraphs-small-p5-XS-font-weight: 400;
+  --project-paragraphs-small-p5-XS-letter-spacing: 0px;
+  --project-paragraphs-small-p5-XS-line-height: 18px;
+  --project-paragraphs-small-p6-XXS-font-family: "Roboto", Helvetica;
+  --project-paragraphs-small-p6-XXS-font-size: 12px;
+  --project-paragraphs-small-p6-XXS-font-style: normal;
+  --project-paragraphs-small-p6-XXS-font-weight: 400;
+  --project-paragraphs-small-p6-XXS-letter-spacing: 0px;
+  --project-paragraphs-small-p6-XXS-line-height: 16px;
+}
+
+:root {
+  --animate-spin: spin 1s linear infinite;
+}
+
+.animate-fade-in {
+  animation: fade-in 1s var(--animation-delay, 0s) ease forwards;
+}
+
+.animate-fade-up {
+  animation: fade-up 1s var(--animation-delay, 0s) ease forwards;
+}
+
+.animate-marquee {
+  animation: marquee var(--duration) infinite linear;
+}
+
+.animate-marquee-vertical {
+  animation: marquee-vertical var(--duration) linear infinite;
+}
+
+.animate-shimmer {
+  animation: shimmer 8s infinite;
+}
+
+.animate-spin {
+  animation: var(--animate-spin);
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+@keyframes image-glow {
+  0% {
+    opacity: 0;
+    animation-timing-function: cubic-bezier(0.74, 0.25, 0.76, 1);
+  }
+
+  10% {
+    opacity: 0.7;
+    animation-timing-function: cubic-bezier(0.12, 0.01, 0.08, 0.99);
+  }
+
+  to {
+    opacity: 0.4;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes shimmer {
+  0%,
+  90%,
+  to {
+    background-position: calc(-100% - var(--shimmer-width)) 0;
+  }
+
+  30%,
+  60% {
+    background-position: calc(100% + var(--shimmer-width)) 0;
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate(0);
+  }
+
+  to {
+    transform: translateX(calc(-100% - var(--gap)));
+  }
+}
+
+@keyframes marquee-vertical {
+  0% {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(calc(-100% - var(--gap)));
+  }
+}
